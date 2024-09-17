@@ -3,7 +3,7 @@
 
 # 1) Black Coffee 
 # 2) Expresso 
-# 3) Latte 
+# 3) Muffin 
 # 4) Cappicino 
 
 
@@ -49,7 +49,7 @@ class CoffeeShop:
         elif  order == 3:
             total = prices[3] * quanitity
             data['name'] = name 
-            data['type'] = 'Latte' 
+            data['type'] = 'Muffin' 
             data['total'] = str(math.floor(total))
 
         elif  order == 4:
