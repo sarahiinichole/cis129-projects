@@ -1,0 +1,53 @@
+# Module 4 Lab-4
+# Sarah
+# September 23
+# Describe what the program does here
+
+# declare local variables
+monthlySales = 0  # monthly sales amount
+????? = 0  # store bonus amount
+????? = 0  # employee bonus amount
+????? = 0  # percent of sales increase
+prompt = ?????? # prompt will be a string literal
+
+    
+
+# this module will determine what the bonus levels are 
+
+monthlySales = float(real monthlySales(Real Ref storeAmount))
+
+# This code determines the store bonus
+
+if monthlySales >= 110000:
+	storeAmount = 6000
+elif if monthlySales >= 100000:
+	Set storeAmount = 5000
+elif if monthlySales >= 90000:
+	Set storeAmount = 4000
+elif if monthly=SAles >= 80000: 
+	Set storeAmount = 3000
+	Set storeAmount = 0
+End If
+End Module 
+
+# This code gets the percent of increase in sales
+salesIncrease = float(input(monthlySales))
+salesIncrease = salesIncrease / 100
+
+
+# This code determines the employee bonus
+if salesIncrease >= .05:
+	empAmount = 75
+elif salesIncrease >= .04:
+	empAmount = 50
+elif salesIncrease >= .03:
+	empAmount = 40
+else:
+	empAmount = 0
+
+# This code prints the bonus information
+print("The store bonus amount is $", storeAmount
+print("The employee bonus amount is $", empAmount)
+if (If storeAmount == 6000 ) AND(empAmount == 7500):
+	print('Congrats! You have reached the highest bonus amounts possible! ')
+
