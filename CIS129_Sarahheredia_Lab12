@@ -1,0 +1,52 @@
+# Define the Pet class
+class Pet:
+    def __init__(self):
+        self.__name = ""
+        self.__type = ""
+        self.__age = 0
+
+    # Setters
+    def setName(self, name):
+        self.__name = name
+
+    def setType(self, type):
+        self.__type = type
+
+    def setAge(self, age):
+        self.__age = age
+
+    # Getters
+    def getName(self):
+        return self.__name
+
+    def getType(self):
+        return self.__type
+
+    def getAge(self):
+        return self.__age
+
+# Main function
+def main():
+    # Create a Pet object
+    Animal = Pet()
+
+    # Get values for a pet from the user
+    inputName = input("Enter a pet name: ")
+    Animal.setName(inputName)
+
+    inputType = input("Enter the type of pet (e.g., Dog, Cat, Bird): ")
+    Animal.setType(inputType)
+
+    inputAge = int(input("Enter the pet's age: "))
+    Animal.setAge(inputAge)
+
+    # Display the pet's information
+    print("\nPet Information:")
+    print("Name:", Animal.getName())
+    print("Type:", Animal.getType())
+    print("Age:", Animal.getAge())
+
+# Call the main function
+if __name__ == "__main__":
+    main()
+
